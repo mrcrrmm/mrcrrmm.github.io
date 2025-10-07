@@ -1,19 +1,19 @@
 /* --- Added SF Pro Display font setup --- */
 @font-face {
     font-family: 'SF Pro Display';
-    src: url('C:/Users/Marcus Gabriel/OneDrive/Desktop/Portfolio/fonts/SF-Pro-Display-Thin.otf') format('opentype');
+    src: url('SF-Pro-Display-Thin.otf') format('opentype');
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'SF Pro Display';
-    src: url('C:/Users/Marcus Gabriel/OneDrive/Desktop/Portfolio/fonts/SF-Pro-Display-Regular.otf') format('opentype');
+    src: url('SF-Pro-Display-Regular.otf') format('opentype');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'SF Pro Display';
-    src: url('C:/Users/Marcus Gabriel/OneDrive/Desktop/Portfolio/fonts/SF-Pro-Display-Bold.otf') format('opentype');
+    src: url('SF-Pro-Display-Bold.otf') format('opentype');
     font-weight: 700;
 }
 
@@ -55,4 +55,5 @@ body {
 .footer-link:hover, .footer-link:active {
     color: black;
 }
+
 
