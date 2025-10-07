@@ -1,0 +1,57 @@
+/* --- Added SF Pro Display font setup --- */
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('C:/Users/Marcus Gabriel/OneDrive/Desktop/Portfolio/fonts/SF-Pro-Display-Thin.otf') format('opentype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('C:/Users/Marcus Gabriel/OneDrive/Desktop/Portfolio/fonts/SF-Pro-Display-Regular.otf') format('opentype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('C:/Users/Marcus Gabriel/OneDrive/Desktop/Portfolio/fonts/SF-Pro-Display-Bold.otf') format('opentype');
+    font-weight: 700;
+}
+
+/* Tell Bootstrap and body to use SF Pro Display Light */
+:root {
+    --bs-body-font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --bs-body-font-weight: 300;
+}
+
+/* Your existing styles below — unchanged */
+.glass {
+    background-color: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(5px);
+}
+
+body {
+    font-family: var(--bs-body-font-family);
+    font-weight: var(--bs-body-font-weight);
+    background: url('C:/Users/Marcus Gabriel/OneDrive/Desktop/Portfolio/background.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100px;
+}
+
+/* About Section */
+.avatar.png {
+  width: 100%;
+  height: auto;
+}
+
+/* Footer */
+.footer-link {
+  font-size: 1rem;
+  color: white;
+  -webkit-text-stroke: 0px black;
+  text-shadow: 0px 0px 0px black;
+  transition: transform 0.3s ease;
+}
+
+.footer-link:hover, .footer-link:active {
+    color: black;
+}
